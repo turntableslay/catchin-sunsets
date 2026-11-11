@@ -1,0 +1,13 @@
+{
+  "name": "catchin-sunsets",
+  "private": true,
+  "type": "module",
+  "description": "Catchin' Sunsets newsletter site for Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev public --kv SIGNUPS",
+    "deploy": "wrangler pages deploy public --project-name catchin-sunsets"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
